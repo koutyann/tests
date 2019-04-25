@@ -28,6 +28,8 @@ git config --global user.email "ユーザーアドレス"   //ユーザー認証
 git config --global user.name "ユーザーネーム"   //ユーザー認証
 
 rm ファイル名/ -rf  //ファイルの削除(/ -rf を入れるとディレクトリごと削除)
+git rm ファイル名   //gitで登録したファイルを削除(ファイルの変更を登録しない)
+＊普通のrm と git rm の違いを理解する。
 
 mkdir git  //ディレクトリ作成
 
